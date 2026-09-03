@@ -12,13 +12,8 @@ known issues; all tests pass and coverage is at 100%.
 
 ## Experience
 
-TODO: Describe your experience with the project (struggles, breakthroughs, etc.).
-
-## Analysis
-
-TODO: Provide your analysis of the results. If the assignment does not require
-analysis, you can remove this section.
-
-Here is an example of how to include a plot in your README:
-
-![Example Image](scripts/example_plot.png)
+It has been a summer since I've written code and about a year since I've written C code so readjusting to the workflow
+was a bit of a struggle initially. The code needed was super simple and once I got in the student headspace again I 
+was able to knock it out but I definitely felt rusty, for some reason codespaces was also taking 30 minutes to start up. 
+Overall I had a good experience and was able to shake off some workflow rust but code review is not my love so I am reminded 
+how to set up a space for myself to focus on the task at hand.
