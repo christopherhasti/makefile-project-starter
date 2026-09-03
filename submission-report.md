@@ -1,6 +1,6 @@
 # Submission Report
 
-- Submission generated at 09/03/2026 at 15:34:01
+- Submission generated at 09/03/2026 at 23:44:29
 
 - Machine info: Linux runnervmejwal 6.17.0-1022-azure #22-Ubuntu SMP Mon Jul 27 17:24:03 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
 
@@ -17,7 +17,7 @@ Post any questions on the class discussion board for help.
 
 ## README
 
-# Project X
+# Project 0 - Makefile Project Starter
 
 - Name: Christopher Hastings
 - Email: christopherhasti@u.boisestate.edu
@@ -312,15 +312,7 @@ int main(void)
     }
 
     printf("3 * 4 = %d\n", multiply(3, 4));
-    printf("2 + 3 = %d (bad_add says so, anyway)\n", bad_add(2, 3));
-
-    /* Task 4: intentional memory leak - never freed */
-    char *leaked = get_greeting("Leak");
-    printf("Leaked greeting: %s\n", leaked);
-
-    /* Task 4: intentional crash - dereference a NULL pointer */
-    int *crash = NULL;
-    *crash = 42;
+    printf("bad_add(2, 3) = %d (intentionally wrong; the real sum is 5)\n", bad_add(2, 3));
 
     return 0;
 }
@@ -403,14 +395,14 @@ int main(void) {
 ```
 
 ## Scripts Files
-Report generated on 09/03/2026 at 15:34:03
+Report generated on 09/03/2026 at 23:44:31
 
 
 ---
 
 ## End of Report
 
-SHA-256 Hash of the report: c209d8643a22603b5b51759dad5b230af1b4fcd86a37787bda0f04d1ecbad6ec
+SHA-256 Hash of the report: 6f92087389ffa7777e65fbe7b828bf90e8bcd945237d15f4c6431cfbaaa628b6
 
 Do not edit the generated report. Any changes will be reported as academic dishonesty
 
