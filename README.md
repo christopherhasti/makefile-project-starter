@@ -1,4 +1,4 @@
-# Project X
+# Project 0 - Makefile Project Starter
 
 - Name: Christopher Hastings
 - Email: christopherhasti@u.boisestate.edu

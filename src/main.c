@@ -17,15 +17,7 @@ int main(void)
     }
 
     printf("3 * 4 = %d\n", multiply(3, 4));
-    printf("2 + 3 = %d (bad_add says so, anyway)\n", bad_add(2, 3));
-
-    /* Task 4: intentional memory leak - never freed */
-    char *leaked = get_greeting("Leak");
-    printf("Leaked greeting: %s\n", leaked);
-
-    /* Task 4: intentional crash - dereference a NULL pointer */
-    int *crash = NULL;
-    *crash = 42;
+    printf("bad_add(2, 3) = %d (intentionally wrong; the real sum is 5)\n", bad_add(2, 3));
 
     return 0;
 }
