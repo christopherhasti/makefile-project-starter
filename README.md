@@ -17,12 +17,3 @@ was a bit of a struggle initially. The code needed was super simple and once I g
 was able to knock it out but I definitely felt rusty, for some reason codespaces was also taking 30 minutes to start up. 
 Overall I had a good experience and was able to shake off some workflow rust but code review is not my love so I am reminded 
 how to set up a space for myself to focus on the task at hand.
-
-## Analysis
-
-TODO: Provide your analysis of the results. If the assignment does not require
-analysis, you can remove this section.
-
-Here is an example of how to include a plot in your README:
-
-![Example Image](scripts/example_plot.png)
