@@ -26,9 +26,19 @@ char *get_greeting(const char *restrict name)
     return NULL; // Memory allocation failed
   }  // GCOVR_EXCL_STOP
 
-
   // Create the greeting message
   snprintf(greeting, alloc_size, "Hello, %s!", name);
 
   return greeting;
+}
+
+int multiply(int a, int b)
+{
+  return a * b;
+}
+
+int bad_add(int a, int b)
+{
+  // This is wrong on purpose: the extra + 1 makes the sum incorrect.
+  return a + b + 1;
 }

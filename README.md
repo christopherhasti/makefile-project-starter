@@ -1,12 +1,14 @@
 # Project X
 
-- Name: John Doe
-- Email: johndoe@u.boisestate.edu
-- Class: CS123-001
+- Name: Christopher Hastings
+- Email: christopherhasti@u.boisestate.edu
+- Class: CS525
 
 ## Known Bugs or Issues
 
-TODO: Are there any known issues?
+`bad_add` returns an intentionally incorrect sum (`a + b + 1`) as required by
+the lab. The tests assert this wrong behavior on purpose. There are no other
+known issues; all tests pass and coverage is at 100%.
 
 ## Experience
 
